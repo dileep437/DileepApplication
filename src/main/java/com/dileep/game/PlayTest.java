@@ -26,15 +26,19 @@ public class PlayTest {
 		for (int i = 0; i <5; i++) {
 
 			board = board.move(Move.LEFT);
+			System.out.println("LEFT");
 			board = moveTiles(board);
 
 			board = board.move(Move.DOWN);
+			System.out.println("DOWN");
 			board = moveTiles(board);
 
 			board = board.move(Move.RIGHT);
+			System.out.println("RIGHT");
 			board = moveTiles(board);
 
 			board = board.move(Move.UP);
+			System.out.println("UP");
 			board = moveTiles(board);
 		}
 
