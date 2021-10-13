@@ -40,6 +40,7 @@ public class PlayTest {
 			board = board.move(Move.UP);
 			System.out.println("UP");
 			board = moveTiles(board);
+			
 		}
 
 		System.out.println("Final Score: " + board.getScore());
